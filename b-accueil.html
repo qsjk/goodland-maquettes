@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Goodland – Αρχική (B)</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;400&amp;family=Sofia+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#121212}
+a{color:#ECE8E1}a:hover{color:#FFFFFF}
+.ph{background-color:#22211F;background-image:repeating-linear-gradient(135deg,rgba(236,232,225,.045) 0 1px,transparent 1px 16px)}
+.nl{text-decoration:none;font-size:15px;color:#ECE8E1;letter-spacing:.04em}
+.nl:hover{text-decoration:underline;text-underline-offset:6px}
+.prow{text-decoration:none;color:#ECE8E1;border-top:1px solid #2D2C29}
+.prow:hover{background:#1A1A19}
+</style>
+
+<script src="runtime.js"></script>
+</head>
+<body>
+<div id="dc-root"></div>
+<a href="index.html" style="position:fixed;left:16px;bottom:16px;z-index:50;display:flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;background:#111;color:#fff;text-decoration:none;font:600 14px system-ui,sans-serif;box-shadow:0 6px 20px rgba(0,0,0,.25)">← Όλες οι προτάσεις</a>
+<script type="text/x-dc-template" id="dc-template">
+
+<div style="font-family: 'Sofia Sans', sans-serif; color: #ECE8E1; background: #121212; width: 100%">
+
+  
+  <section id="top" class="ph" style="position: relative; min-height: 860px; display: flex; flex-direction: column">
+    <header style="padding: 24px">
+      <div style="max-width: 1320px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+        <a href="#top" style="display: flex; flex-direction: column; text-decoration: none; line-height: 1.05">
+          <span style="font-family: 'Noto Serif Display', serif; font-size: 26px; letter-spacing: .18em">ΕΥΓΕΙΟΣ</span>
+          <span style="font-size: 11px; letter-spacing: .38em; color: #C8A465">GOODLAND</span>
+        </a>
+        <nav aria-label="Κύριο μενού" style="display: flex; flex-wrap: wrap; gap: 28px">
+          <a class="nl" href="b-programme.html">{{t.nav1}}</a>
+          <a class="nl" href="#done">{{t.nav2}}</a>
+          <a class="nl" href="#services">{{t.nav3}}</a>
+          <a class="nl" href="#land">{{t.nav4}}</a>
+          <a class="nl" href="#contact">{{t.nav5}}</a>
+        </nav>
+        <div style="display: flex; align-items: center; gap: 4px; font-size: 14px; letter-spacing: .08em">
+          <sc-if value="{{isEl}}" hint-placeholder-val="{{ true }}">
+            <button type="button" onClick="{{setEl}}" aria-pressed="true" style="min-height: 44px; min-width: 44px; border: 0; background: transparent; color: #C8A465; font: inherit; font-weight: 600; cursor: pointer; text-decoration: underline; text-underline-offset: 6px">ΕΛ</button>
+            <button type="button" onClick="{{setEn}}" aria-pressed="false" style="min-height: 44px; min-width: 44px; border: 0; background: transparent; color: #A8A296; font: inherit; cursor: pointer">EN</button>
+          </sc-if>
+          <sc-if value="{{isEn}}" hint-placeholder-val="{{ false }}">
+            <button type="button" onClick="{{setEl}}" aria-pressed="false" style="min-height: 44px; min-width: 44px; border: 0; background: transparent; color: #A8A296; font: inherit; cursor: pointer">ΕΛ</button>
+            <button type="button" onClick="{{setEn}}" aria-pressed="true" style="min-height: 44px; min-width: 44px; border: 0; background: transparent; color: #C8A465; font: inherit; font-weight: 600; cursor: pointer; text-decoration: underline; text-underline-offset: 6px">EN</button>
+          </sc-if>
+        </div>
+      </div>
+    </header>
+    <div style="flex: 1; padding: 0 24px 72px; display: flex; align-items: flex-end">
+      <div style="max-width: 1320px; width: 100%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 40px">
+        <div style="flex: 1 1 640px; display: flex; flex-direction: column; gap: 28px">
+          <span style="font-size: 13px; letter-spacing: .32em; color: #C8A465">{{t.kicker}}</span>
+          <h1 style="margin: 0; font-family: 'Noto Serif Display', serif; font-weight: 300; font-size: 84px; line-height: 1.02; letter-spacing: -0.01em">{{t.h1}}</h1>
+          <p style="margin: 0; font-size: 19px; line-height: 1.6; color: #C9C3B8; max-width: 560px">{{t.sub}}</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 14px">
+            <a href="b-programme.html" style="display: inline-flex; align-items: center; min-height: 54px; padding: 0 30px; background: {{accent}}; color: #121212; text-decoration: none; font-weight: 600; font-size: 16px; letter-spacing: .04em">{{t.cta1}}</a>
+            <a href="#land" style="display: inline-flex; align-items: center; min-height: 54px; padding: 0 30px; border: 1px solid #ECE8E1; text-decoration: none; font-weight: 500; font-size: 16px; letter-spacing: .04em">{{t.cta2}}</a>
+          </div>
+        </div>
+        <a href="b-programme.html" style="flex: 0 1 320px; display: flex; flex-direction: column; gap: 8px; padding: 24px; border: 1px solid #3A3934; background: rgba(18,18,18,.82); text-decoration: none">
+          <span style="font-size: 12px; letter-spacing: .28em; color: #C8A465">ΝΕΟ ΕΡΓΟ · ΠΕΡΙΣΤΕΡΙ</span>
+          <span style="font-family: 'Noto Serif Display', serif; font-size: 30px">Αλκαμένους 4</span>
+          <span style="font-size: 15px; color: #C9C3B8">4 διαθέσιμες κατοικίες · από 150.000 €</span>
+        </a>
+      </div>
+    </div>
+    <span style="position: absolute; right: 24px; top: 96px; font-size: 12px; color: #A8A296; letter-spacing: .1em">ΘΕΣΗ ΦΩΤΟΓΡΑΦΙΑΣ ΠΛΗΡΟΥΣ ΠΛΑΤΟΥΣ</span>
+  </section>
+
+  
+  <section style="padding: 120px 24px 80px">
+    <div style="max-width: 1320px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 64px">
+      <p style="flex: 1 1 560px; margin: 0; font-family: 'Noto Serif Display', serif; font-weight: 300; font-size: 38px; line-height: 1.3">Βρίσκουμε ευκαιρίες σε οικόπεδα, ημιτελή κτίσματα και παλιές κατοικίες, και τις μετατρέπουμε σε σύγχρονα, ενεργειακά σπίτια.</p>
+      <div style="flex: 1 1 420px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 32px">
+        <sc-for list="{{stats}}" as="s" hint-placeholder-count="4">
+          <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid #3A3934; padding-top: 18px">
+            <span style="font-family: 'Noto Serif Display', serif; font-size: 52px; color: {{accent}}">{{s.n}}</span>
+            <span style="font-size: 15px; color: #A8A296; letter-spacing: .04em">{{s.l}}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="projects" style="padding: 40px 24px 120px">
+    <div style="max-width: 1320px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px">
+        <h2 style="margin: 0; font-family: 'Noto Serif Display', serif; font-weight: 300; font-size: 56px">Διαθέσιμα ακίνητα</h2>
+        <a href="b-programme.html" style="font-size: 15px; letter-spacing: .08em; color: #C8A465">ΟΛΑ ΤΑ 12 ΕΡΓΑ →</a>
+      </div>
+      <div style="display: flex; flex-direction: column; border-bottom: 1px solid #2D2C29">
+        <sc-for list="{{projects}}" as="p" hint-placeholder-count="6">
+          <a href="{{p.href}}" class="prow" style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; padding: 22px 8px">
+            <span style="flex: 0 0 56px; font-size: 14px; color: #A8A296; letter-spacing: .1em">{{p.no}}</span>
+            <div class="ph" style="flex: 0 0 160px; height: 100px"></div>
+            <span style="flex: 1 1 280px; display: flex; flex-direction: column; gap: 4px">
+              <span style="font-size: 13px; letter-spacing: .26em; color: #C8A465">{{p.area}}</span>
+              <span style="font-family: 'Noto Serif Display', serif; font-size: 32px">{{p.street}}</span>
+            </span>
+            <span style="flex: 0 1 260px; font-size: 16px; color: #C9C3B8">{{p.info}}</span>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C8A465" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  
+  <section style="padding: 0 24px 120px">
+    <div style="max-width: 1320px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 64px; align-items: center">
+      <div class="ph" style="flex: 1 1 520px; height: 620px"></div>
+      <div style="flex: 1 1 440px; display: flex; flex-direction: column; gap: 32px">
+        <span style="font-size: 13px; letter-spacing: .32em; color: #C8A465">ΣΤΑ ΜΕΤΡΑ ΣΑΣ</span>
+        <h2 style="margin: 0; font-family: 'Noto Serif Display', serif; font-weight: 300; font-size: 50px; line-height: 1.1">Επιλέγετε τα πάντα, όσο χτίζεται.</h2>
+        <ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column">
+          <sc-for list="{{steps}}" as="st" hint-placeholder-count="3">
+            <li style="display: flex; gap: 24px; padding: 22px 0; border-top: 1px solid #2D2C29">
+              <span style="font-family: 'Noto Serif Display', serif; font-size: 28px; color: {{accent}}; flex: 0 0 40px">{{st.n}}</span>
+              <span style="display: flex; flex-direction: column; gap: 6px">
+                <span style="font-size: 19px; font-weight: 600">{{st.t}}</span>
+                <span style="font-size: 16px; line-height: 1.55; color: #A8A296">{{st.d}}</span>
+              </span>
+            </li>
+          </sc-for>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="services" style="padding: 0 24px 120px">
+    <div style="max-width: 1320px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+      <h2 style="margin: 0; font-family: 'Noto Serif Display', serif; font-weight: 300; font-size: 56px">Υπηρεσίες</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2px; background: #2D2C29; border: 1px solid #2D2C29">
+        <sc-for list="{{services}}" as="sv" hint-placeholder-count="4">
+          <div style="background: #121212; padding: 36px 28px 40px; display: flex; flex-direction: column; gap: 18px; min-height: 260px">
+            <span style="font-size: 13px; letter-spacing: .2em; color: #C8A465">{{sv.n}}</span>
+            <span style="font-family: 'Noto Serif Display', serif; font-size: 28px; line-height: 1.2">{{sv.t}}</span>
+            <span style="font-size: 16px; line-height: 1.6; color: #A8A296">{{sv.d}}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="land" style="background: {{accent}}; color: #121212; padding: 96px 24px">
+    <div style="max-width: 1320px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 40px">
+      <div style="flex: 1 1 640px; display: flex; flex-direction: column; gap: 20px">
+        <span style="font-size: 13px; letter-spacing: .32em">ΓΙΑ ΟΙΚΟΠΕΔΟΥΧΟΥΣ</span>
+        <h2 style="margin: 0; font-family: 'Noto Serif Display', serif; font-weight: 400; font-size: 56px; line-height: 1.08">Έχετε οικόπεδο ή παλιό ακίνητο; Μπορούμε να συνεργαστούμε.</h2>
+      </div>
+      <a href="#contact" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 32px; background: #121212; color: #ECE8E1; text-decoration: none; font-weight: 600; font-size: 16px; letter-spacing: .04em">Ας μιλήσουμε →</a>
+    </div>
+  </section>
+
+  
+  <section id="done" style="padding: 120px 24px">
+    <div style="max-width: 1320px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+      <h2 style="margin: 0; font-family: 'Noto Serif Display', serif; font-weight: 300; font-size: 56px">Ολοκληρωμένα έργα</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px">
+        <sc-for list="{{done}}" as="d" hint-placeholder-count="8">
+          <a href="#done" style="display: flex; flex-direction: column; gap: 12px; text-decoration: none">
+            <div class="ph" style="height: 300px"></div>
+            <span style="font-family: 'Noto Serif Display', serif; font-size: 22px">{{d}}</span>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" style="padding: 0 24px 120px">
+    <div style="max-width: 1320px; margin: 0 auto; border-top: 1px solid #2D2C29; padding-top: 80px; display: flex; flex-wrap: wrap; gap: 64px">
+      <div style="flex: 1 1 420px; display: flex; flex-direction: column; gap: 28px">
+        <h2 style="margin: 0; font-family: 'Noto Serif Display', serif; font-weight: 300; font-size: 56px; line-height: 1.05">Ελάτε στο γραφείο μας.</h2>
+        <div style="display: flex; flex-direction: column; gap: 16px; font-size: 17px; color: #C9C3B8">
+          <span>Ύδρας 14, Μοσχάτο</span>
+          <a href="tel:+302130996050">213 099 6050</a>
+          <a href="tel:+306945135770">694 513 5770</a>
+          <a href="mailto:goodlandcon@gmail.com">goodlandcon@gmail.com</a>
+        </div>
+      </div>
+      <form style="flex: 1 1 520px; display: flex; flex-direction: column; gap: 22px">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 22px">
+          <label style="display: flex; flex-direction: column; gap: 8px; font-size: 13px; letter-spacing: .16em; color: #A8A296">ΟΝΟΜΑ<input type="text" style="min-height: 48px; border: 0; border-bottom: 1px solid #5A5850; background: transparent; color: #ECE8E1; font: inherit; font-size: 17px; letter-spacing: 0"></label>
+          <label style="display: flex; flex-direction: column; gap: 8px; font-size: 13px; letter-spacing: .16em; color: #A8A296">ΤΗΛΕΦΩΝΟ<input type="tel" style="min-height: 48px; border: 0; border-bottom: 1px solid #5A5850; background: transparent; color: #ECE8E1; font: inherit; font-size: 17px; letter-spacing: 0"></label>
+        </div>
+        <label style="display: flex; flex-direction: column; gap: 8px; font-size: 13px; letter-spacing: .16em; color: #A8A296">EMAIL<input type="email" style="min-height: 48px; border: 0; border-bottom: 1px solid #5A5850; background: transparent; color: #ECE8E1; font: inherit; font-size: 17px; letter-spacing: 0"></label>
+        <label style="display: flex; flex-direction: column; gap: 8px; font-size: 13px; letter-spacing: .16em; color: #A8A296">ΜΗΝΥΜΑ<textarea rows="3" style="border: 0; border-bottom: 1px solid #5A5850; background: transparent; color: #ECE8E1; font: inherit; font-size: 17px; letter-spacing: 0; resize: vertical"></textarea></label>
+        <button type="button" style="align-self: flex-start; min-height: 54px; padding: 0 36px; border: 0; background: {{accent}}; color: #121212; font: inherit; font-weight: 600; font-size: 16px; letter-spacing: .04em; cursor: pointer">Αποστολή</button>
+      </form>
+    </div>
+  </section>
+
+  <footer style="border-top: 1px solid #2D2C29; padding: 32px 24px">
+    <div style="max-width: 1320px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 14px; color: #A8A296">
+      <span>© 2026 ΕΥΓΕΙΟΣ GOODLAND Μ. ΕΠΕ</span>
+      <span style="display: flex; gap: 24px"><a href="https://www.facebook.com/evgeios/">Facebook</a><a href="https://www.instagram.com/goodland_constructions/">Instagram</a></span>
+    </div>
+  </footer>
+</div>
+</script>
+<script>
+
+class Component extends DCLogic {
+  constructor(props) { super(props); this.state = { lang: 'el' }; }
+  renderVals() {
+    const lang = this.state.lang;
+    const T = {
+      el: { nav1: 'Ακίνητα', nav2: 'Έργα', nav3: 'Υπηρεσίες', nav4: 'Οικοπεδούχοι', nav5: 'Επικοινωνία',
+        kicker: 'ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ ΕΤΑΙΡΙΑ · 25+ ΧΡΟΝΙΑ',
+        h1: 'Χτίζουμε σπίτια που σας μοιάζουν.',
+        sub: 'Νεόδμητες κατοικίες ενεργειακής κλάσης Α στην Αθήνα, σε τιμές κάτω από την αγορά. Εσείς διαλέγετε τα υλικά.',
+        cta1: 'Δείτε τα ακίνητα', cta2: 'Είμαι οικοπεδούχος' },
+      en: { nav1: 'Homes', nav2: 'Projects', nav3: 'Services', nav4: 'Land owners', nav5: 'Contact',
+        kicker: 'CONSTRUCTION COMPANY · 25+ YEARS',
+        h1: 'We build homes that feel like yours.',
+        sub: 'New-build energy class A homes in Athens, below market prices. You choose the finishes.',
+        cta1: 'View homes', cta2: 'I own land' }
+    };
+    return {
+      accent: this.props.accent ?? '#C8A465',
+      t: T[lang], isEl: lang === 'el', isEn: lang === 'en',
+      setEl: () => this.setState({ lang: 'el' }),
+      setEn: () => this.setState({ lang: 'en' }),
+      stats: [
+        { n: '25+', l: 'χρόνια εμπειρίας' }, { n: '12', l: 'έργα προς πώληση' },
+        { n: '8', l: 'ολοκληρωμένα έργα' }, { n: 'Α', l: 'ενεργειακή κλάση' }
+      ],
+      projects: [
+        { no: '01', area: 'ΠΕΡΙΣΤΕΡΙ', street: 'Αλκαμένους 4', info: '4 διαθέσιμες · από 150.000 €', href: 'b-programme.html' },
+        { no: '02', area: 'ΝΕΑ ΙΩΝΙΑ', street: 'Ανδρέα Δημητρίου 87', info: 'Δείτε το έργο', href: '#projects' },
+        { no: '03', area: 'ΜΑΡΟΥΣΙ', street: 'Ολύμπου 21', info: 'Δείτε το έργο', href: '#projects' },
+        { no: '04', area: 'ΠΑΠΑΓΟΥ', street: 'Βυζαντίου 56', info: 'Δείτε το έργο', href: '#projects' },
+        { no: '05', area: 'ΠΑΓΚΡΑΤΙ', street: 'Δικαιάρχου 79', info: 'Δείτε το έργο', href: '#projects' },
+        { no: '06', area: 'ΚΟΥΚΑΚΙ', street: 'Καλλιρρόης 80', info: 'Δείτε το έργο', href: '#projects' }
+      ],
+      steps: [
+        { n: 'I', t: 'Διαλέγετε ακίνητο', d: 'Νεόδμητο ή παλαιότερο, σε τιμή χαμηλότερη από την αγορά.' },
+        { n: 'II', t: 'Το προσαρμόζετε', d: 'Δάπεδα, κουζίνα, μπάνια, ντουλάπες: επιλέγετε κατά την κατασκευή.' },
+        { n: 'III', t: 'Το παραλαμβάνετε', d: 'Ενεργειακά αναβαθμισμένο και πλήρως λειτουργικό.' }
+      ],
+      services: [
+        { n: '01', t: 'Μελέτη & κατασκευή κτιρίων', d: 'Νέες κατοικίες υψηλών προδιαγραφών, από τη μελέτη έως την παράδοση.' },
+        { n: '02', t: 'Εσωτερικοί χώροι', d: 'Κουζίνες, σαλόνια, υπνοδωμάτια και μπάνια στα μέτρα σας.' },
+        { n: '03', t: 'Ανακαινίσεις & ενεργειακή αναβάθμιση', d: 'Θερμομόνωση, κουφώματα και επισκευές για παλαιότερα ακίνητα.' },
+        { n: '04', t: 'Ξυλουργικές κατασκευές', d: 'Ντουλάπες, κουζίνες και έπιπλα κατά παραγγελία.' }
+      ],
+      done: ['Χολαργός', 'Παπάγου', 'Ζωγράφου', 'Νίκαια', 'Κερατσίνι', 'Αγία Παρασκευή', 'Πεύκη', 'Παλαιό Φάληρο']
+    };
+  }
+}
+
+window.__dcMount(Component, {"accent": "#C8A465"});
+</script>
+</body>
+</html>

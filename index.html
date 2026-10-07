@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Goodland · Νέο site</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600;700&family=Noto+Serif+Display:wght@300&family=Sofia+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14212B;--muted:#4A5A64;--line:#E2E7E3}
+*{box-sizing:border-box}
+body{margin:0;background:#F4F5F2;color:var(--ink);font-family:'Commissioner',sans-serif}
+main{max-width:1100px;margin:0 auto;padding:48px 16px 64px;display:flex;flex-direction:column;gap:32px}
+h1{margin:0;font-size:clamp(30px,5vw,46px);line-height:1.1;letter-spacing:-.01em;color:#12324A}
+p{margin:0;font-size:17px;line-height:1.6;color:var(--muted);max-width:640px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
+.top{padding:32px 28px 36px;display:flex;flex-direction:column;gap:12px;min-height:220px;justify-content:flex-end}
+.a .top{background:#FFFFFF;border:1px solid var(--line);border-bottom:0;border-radius:22px 22px 0 0}
+.b .top{background:#121212;color:#ECE8E1}
+.tag{font-size:12px;letter-spacing:.22em;font-weight:600}
+.a .tag{color:#55621F}.b .tag{color:#C8A465}
+.name{font-size:30px;font-weight:700}
+.b .name{font-family:'Noto Serif Display',serif;font-weight:300;font-size:36px}
+.desc{font-size:15px;line-height:1.5}
+.a .desc{color:var(--muted)}.b .desc{color:#C9C3B8;font-family:'Sofia Sans',sans-serif}
+.links{display:grid;grid-template-columns:1fr 1fr}
+.links a{display:flex;align-items:center;justify-content:center;min-height:56px;text-decoration:none;font-weight:600;font-size:15px}
+.a .links a{background:#12324A;color:#fff}.a .links a+a{background:#55621F}
+.b .links a{background:#1D1D1C;color:#ECE8E1;border-top:1px solid #2D2C29}.b .links a+a{background:#C8A465;color:#121212}
+.note{font-size:14px;color:var(--muted);border-top:1px solid #D9DED9;padding-top:20px}
+</style>
+</head>
+<body>
+<main>
+  <div style="display:flex;flex-direction:column;gap:14px">
+    <span class="tag" style="color:#55621F">ΕΥΓΕΙΟΣ GOODLAND · ΠΡΟΤΑΣΗ ΝΕΟΥ SITE</span>
+    <h1>Δύο προτάσεις για το νέο σας site</h1>
+    <p>Δείτε την αρχική σελίδα και τη σελίδα ενός έργου σε κάθε στυλ. Όλα λειτουργούν: φίλτρα διαμερισμάτων, γκαλερί, αλλαγή γλώσσας ΕΛ/EN.</p>
+  </div>
+  <div class="grid">
+    <section class="card a">
+      <div class="top">
+        <span class="tag">ΠΡΟΤΑΣΗ Α</span>
+        <span class="name">Φωτεινό &amp; σύγχρονο</span>
+        <span class="desc">Λευκό, μπλε και λαδί. Καθαρό, ήρεμο, με έμφαση στην ενεργειακή κλάση Α.</span>
+      </div>
+      <div class="links"><a href="a-accueil.html">Αρχική</a><a href="a-programme.html">Σελίδα έργου</a></div>
+    </section>
+    <section class="card b">
+      <div class="top">
+        <span class="tag">ΠΡΟΤΑΣΗ Β</span>
+        <span class="name">Σκούρο &amp; αρχιτεκτονικό</span>
+        <span class="desc">Μαύρο και χρυσό, μεγάλες γραμματοσειρές. Πιο premium αίσθηση.</span>
+      </div>
+      <div class="links"><a href="b-accueil.html">Αρχική</a><a href="b-programme.html">Σελίδα έργου</a></div>
+    </section>
+  </div>
+  <p class="note">Οι γκρι περιοχές είναι θέσεις για τις φωτογραφίες και τα 3D σας. Τα κείμενα και τα στοιχεία είναι από το σημερινό σας site.</p>
+</main>
+</body>
+</html>
