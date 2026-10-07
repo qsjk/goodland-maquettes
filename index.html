@@ -1,63 +1,140 @@
 <!doctype html>
-<html lang="el">
+<html lang="el" data-lang="el">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Goodland · Νέο site</title>
+<title>Κατασκευαστική Εταιρία | Εύγειος Goodland ΕΠΕ</title>
+<meta name="description" content="Εύγειος Goodland Μ. Επε | Κατασκευαστική Εταιρία |Κατασκευές Κατοικιών, Πωλήσεις Κατοικιών, Ανακαινίσεις Κατοικιών">
+<link rel="icon" href="https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png/v1/fit/w_64,h_64,al_c,q_80,enc_auto/img.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600;700&family=Noto+Serif+Display:wght@300&family=Sofia+Sans:wght@400;600&display=swap" rel="stylesheet">
-<style>
-:root{--ink:#14212B;--muted:#4A5A64;--line:#E2E7E3}
-*{box-sizing:border-box}
-body{margin:0;background:#F4F5F2;color:var(--ink);font-family:'Commissioner',sans-serif}
-main{max-width:1100px;margin:0 auto;padding:48px 16px 64px;display:flex;flex-direction:column;gap:32px}
-h1{margin:0;font-size:clamp(30px,5vw,46px);line-height:1.1;letter-spacing:-.01em;color:#12324A}
-p{margin:0;font-size:17px;line-height:1.6;color:var(--muted);max-width:640px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
-.card{border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
-.top{padding:32px 28px 36px;display:flex;flex-direction:column;gap:12px;min-height:220px;justify-content:flex-end}
-.a .top{background:#FFFFFF;border:1px solid var(--line);border-bottom:0;border-radius:22px 22px 0 0}
-.b .top{background:#121212;color:#ECE8E1}
-.tag{font-size:12px;letter-spacing:.22em;font-weight:600}
-.a .tag{color:#55621F}.b .tag{color:#C8A465}
-.name{font-size:30px;font-weight:700}
-.b .name{font-family:'Noto Serif Display',serif;font-weight:300;font-size:36px}
-.desc{font-size:15px;line-height:1.5}
-.a .desc{color:var(--muted)}.b .desc{color:#C9C3B8;font-family:'Sofia Sans',sans-serif}
-.links{display:grid;grid-template-columns:1fr 1fr}
-.links a{display:flex;align-items:center;justify-content:center;min-height:56px;text-decoration:none;font-weight:600;font-size:15px}
-.a .links a{background:#12324A;color:#fff}.a .links a+a{background:#55621F}
-.b .links a{background:#1D1D1C;color:#ECE8E1;border-top:1px solid #2D2C29}.b .links a+a{background:#C8A465;color:#121212}
-.note{font-size:14px;color:var(--muted);border-top:1px solid #D9DED9;padding-top:20px}
-</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://static.wixstatic.com">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a class="brand" href="index.html" aria-label="Εύγειος Goodland – Αρχική">
+      <img src="https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png/v1/fit/w_160,h_160,al_c,q_80,enc_auto/img.png" alt="" width="52" height="52">
+      <span class="brand-txt"><b>ΕΥΓΕΙΟΣ</b><small>GOODLAND · ΚΑΤΑΣΚΕΥΕΣ</small></span>
+    </a>
+    <nav class="nav" aria-label="Κύριο μενού"><a href="pros-polisi.html"><span class="el">Ακίνητα προς πώληση</span><span class="en">Properties for sale</span></a><a href="olokliromena-erga.html"><span class="el">Ολοκληρωμένα έργα</span><span class="en">Completed projects</span></a><a href="projects.html"><span class="el">Εσωτερικοί χώροι</span><span class="en">Interior design</span></a><a href="contact.html"><span class="el">Επικοινωνία</span><span class="en">Contact</span></a></nav>
+    <div class="hdr-actions">
+      <div class="lang" role="group" aria-label="Γλώσσα / Language">
+        <button type="button" data-lang="el" aria-pressed="true">ΕΛ</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn-navy btn-sm hdr-call" href="tel:+302130996050" aria-label="Κλήση 213 099 6050"><svg class="ico " width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span>213 099 6050</span></a>
+      <button class="menu-btn" type="button" aria-label="Μενού" aria-expanded="false"><svg class="ico " width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
 <main>
-  <div style="display:flex;flex-direction:column;gap:14px">
-    <span class="tag" style="color:#55621F">ΕΥΓΕΙΟΣ GOODLAND · ΠΡΟΤΑΣΗ ΝΕΟΥ SITE</span>
-    <h1>Δύο προτάσεις για το νέο σας site</h1>
-    <p>Δείτε την αρχική σελίδα και τη σελίδα ενός έργου σε κάθε στυλ. Όλα λειτουργούν: φίλτρα διαμερισμάτων, γκαλερί, αλλαγή γλώσσας ΕΛ/EN.</p>
+
+<section class="hero"><div class="wrap hero-grid">
+  <div class="hero-copy">
+    <span class="chip chip-olive"><svg class="ico " width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg><span class="el">25+ χρόνια εμπειρίας · Ενεργειακή κλάση Α</span><span class="en">25+ years of experience · Energy class A</span></span>
+    <h1><span class="el">Αναζητάτε ένα νέο ενεργειακό σπίτι;</span><span class="en">Are you looking for a new energy-apartment?</span></h1>
+    <p class="lead"><span class="el">Απευθυνθείτε στο γραφείο μας για να βρείτε το ακίνητο που ταιριάζει απόλυτα στα μέτρα σας, νεόδμητο ή παλαιότητος, σε τιμές χαμηλότερες από της αγοράς.</span><span class="en">Contact our people to find the property that perfectly suits your needs, newly built or old, at lower than market prices.</span></p>
+    <div class="ctas">
+      <a class="btn btn-olive" href="pros-polisi.html"><span class="el">Ακίνητα προς πώληση</span><span class="en">Properties for sale</span><svg class="ico " width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn btn-line" href="contact.html"><span class="el">Επικοινωνία</span><span class="en">Contact us</span></a>
+    </div>
   </div>
-  <div class="grid">
-    <section class="card a">
-      <div class="top">
-        <span class="tag">ΠΡΟΤΑΣΗ Α</span>
-        <span class="name">Φωτεινό &amp; σύγχρονο</span>
-        <span class="desc">Λευκό, μπλε και λαδί. Καθαρό, ήρεμο, με έμφαση στην ενεργειακή κλάση Α.</span>
-      </div>
-      <div class="links"><a href="a-accueil.html">Αρχική</a><a href="a-programme.html">Σελίδα έργου</a></div>
-    </section>
-    <section class="card b">
-      <div class="top">
-        <span class="tag">ΠΡΟΤΑΣΗ Β</span>
-        <span class="name">Σκούρο &amp; αρχιτεκτονικό</span>
-        <span class="desc">Μαύρο και χρυσό, μεγάλες γραμματοσειρές. Πιο premium αίσθηση.</span>
-      </div>
-      <div class="links"><a href="b-accueil.html">Αρχική</a><a href="b-programme.html">Σελίδα έργου</a></div>
-    </section>
+  <div class="hero-media">
+    <img src="https://static.wixstatic.com/media/3c238e_b82cff7520054f2b9f38b078fe271ceb~mv2.jpg/v1/fill/w_1200,h_1200,al_c,q_80,enc_auto/img.jpg" alt="Πολυκατοικία Εύγειος στου Παπάγου" fetchpriority="high">
+    <a class="float-card" href="alkamenous-4-peristeri.html">
+      <small><span class="el">Περιστέρι</span><span class="en">Peristeri</span> · <span class="el">Νέο έργο</span><span class="en">New project</span></small>
+      <b>Αλκαμένους 4</b>
+      <span>4 <span class="el">διαθέσιμα</span><span class="en">available</span> · <span class="el">από 150.000 €</span><span class="en">from 150.000 €</span></span>
+    </a>
   </div>
-  <p class="note">Οι γκρι περιοχές είναι θέσεις για τις φωτογραφίες και τα 3D σας. Τα κείμενα και τα στοιχεία είναι από το σημερινό σας site.</p>
+</div></section>
+
+<section><div class="wrap"><div class="stats">
+  <div class="stat"><b>25+</b><span><span class="el">χρόνια στις κατασκευές</span><span class="en">years in construction</span></span></div>
+  <div class="stat"><b>12</b><span><span class="el">έργα προς πώληση</span><span class="en">projects for sale</span></span></div>
+  <div class="stat"><b>46</b><span><span class="el">διαθέσιμα ακίνητα</span><span class="en">homes available</span></span></div>
+  <div class="stat"><b>10</b><span><span class="el">ολοκληρωμένα κτήρια</span><span class="en">completed buildings</span></span></div>
+</div></div></section>
+
+<section class="sec"><div class="wrap two">
+  <div class="prose">
+    <span class="kicker"><span class="el">Η εταιρεία</span><span class="en">The company</span></span>
+    <h2><span class="el">Η εταιρεία «Εύγειος»</span><span class="en">The “Evgios Goodland” company</span></h2>
+    <p><span class="el">Η εταιρεία &quot;ΕΥΓΕΙΟΣ&quot; δραστηριοποιείται στον χώρο των κατασκευών με πάνω από 25 χρόνια εμπειρίας, προσφέροντας ακίνητα σε προσιτές τιμές, αξιοποιώντας την πολυετή πείρα της στην εύρεση ευκαιριών σε οικόπεδα, ημιτελή κτίσματα και οικίες παλαιότητας σε άριστη κατάσταση. Η κατασκευή των προσφερόμενων ακινήτων είναι υψηλών προδιαγραφών, προηγμένη ενεργειακά, πλήρως λειτουργική και σύγχρονη τεχνολογικά. Η δυνατότητα επιλογής δίνεται πάντα στον αγοραστή προκειμένου να γίνουν οι όποιες προσαρμογές στις ανάγκες του αλλά και στο δικό του γούστο, αφού μπορεί να επιλέξει ο ίδιος τα πάντα κατά την διάρκεια της διαμόρφωσης.</span><span class="en">The &quot;EVGIOS GOODLAND&quot; company is active in the field of construction, with over 25 years of experience, offering properties at affordable prices, utilizing its many years of experience in finding opportunities in plots of land, unfinished buildings and old houses. The construction is of a high standard, with high efficiency energy class and fully functional, with modern technology. The possibility is always given to the buyer in order to make any adjustments to his needs and to his own preferences, since he can choose everything himself during the configuration.</span></p>
+  </div>
+  <img src="https://static.wixstatic.com/media/3c238e_99edb9a26c8345b18ddbe6e03d89c01c~mv2.jpg/v1/fill/w_900,h_700,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy" style="width:100%;border-radius:24px;aspect-ratio:9/7;object-fit:cover;background:#F2F5F1">
+</div></section>
+
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="sec-head"><div><span class="kicker"><span class="el">Προς πώληση</span><span class="en">For sale</span></span><h2><span class="el">Διαθέσιμα ακίνητα</span><span class="en">Available properties</span></h2></div>
+  <a class="more" href="pros-polisi.html"><span class="el">Όλα τα 12 έργα →</span><span class="en">All 12 projects →</span></a></div>
+  <div class="grid"><a class="card" href="olimpoy-21-marousi.html"><div class="card-img"><img src="https://static.wixstatic.com/media/3c238e_0e33b2314edb4721a95c3c918417b78a~mv2.jpg/v1/fill/w_720,h_540,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span class="badge">9 <span class="el">διαθέσιμα</span><span class="en">available</span></span></div><div class="card-body"><small><span class="el">Μαρούσι</span><span class="en">Marousi</span></small><b>Ολύμπου 21</b><span><span class="el">από 205.000 €</span><span class="en">from 205.000 €</span> · 45–123 <span class="el">τ.μ.</span><span class="en">m²</span></span></div></a><a class="card" href="evkalyptwn-7-marousi.html"><div class="card-img"><img src="https://static.wixstatic.com/media/3c238e_1ca49085b213458480f1136966aca00f~mv2.jpg/v1/fill/w_720,h_540,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span class="badge">8 <span class="el">διαθέσιμα</span><span class="en">available</span></span></div><div class="card-body"><small><span class="el">Μαρούσι</span><span class="en">Marousi</span></small><b>Ευκαλύπτων 7</b><span><span class="el">από 270.000 €</span><span class="en">from 270.000 €</span> · 50–140 <span class="el">τ.μ.</span><span class="en">m²</span></span></div></a><a class="card" href="olympou-23-vrilhssia.html"><div class="card-img"><img src="https://static.wixstatic.com/media/3c238e_0ab1189da6464a1aab7396fde262b885~mv2.jpg/v1/fill/w_720,h_540,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span class="badge">7 <span class="el">διαθέσιμα</span><span class="en">available</span></span></div><div class="card-body"><small><span class="el">Βριλήσσια</span><span class="en">Vrilissia</span></small><b>Ολύμπου 23</b><span><span class="el">από 440.000 €</span><span class="en">from 440.000 €</span> · 89–163 <span class="el">τ.μ.</span><span class="en">m²</span></span></div></a><a class="card" href="kekropos-4-6-kallithea.html"><div class="card-img"><img src="https://static.wixstatic.com/media/3c238e_8a6eee88b8c244deb9535ade3a820641~mv2.png/v1/fill/w_720,h_540,al_c,q_80,enc_auto/img.png" alt="" loading="lazy"><span class="badge">7 <span class="el">διαθέσιμα</span><span class="en">available</span></span></div><div class="card-body"><small><span class="el">Καλλιθέα</span><span class="en">Kallithea</span></small><b>Κέκροπος 4-6</b><span><span class="el">από 178.000 €</span><span class="en">from 178.000 €</span> · 53–110 <span class="el">τ.μ.</span><span class="en">m²</span></span></div></a><a class="card" href="alkamenous-4-peristeri.html"><div class="card-img"><img src="https://static.wixstatic.com/media/3c238e_bf54d03ea7d742d6aeda7127eb3c704d~mv2.jpg/v1/fill/w_720,h_540,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span class="badge">4 <span class="el">διαθέσιμα</span><span class="en">available</span></span></div><div class="card-body"><small><span class="el">Περιστέρι</span><span class="en">Peristeri</span></small><b>Αλκαμένους 4</b><span><span class="el">από 150.000 €</span><span class="en">from 150.000 €</span> · 48–107 <span class="el">τ.μ.</span><span class="en">m²</span></span></div></a><a class="card" href="andrea-dimitriou-87-nea-iwnia.html"><div class="card-img"><img src="https://static.wixstatic.com/media/3c238e_3f1dd76c45494e9e83a8e72d186a23d8~mv2.jpg/v1/fill/w_720,h_540,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span class="badge">4 <span class="el">διαθέσιμα</span><span class="en">available</span></span></div><div class="card-body"><small><span class="el">Ν. Ιωνία</span><span class="en">Nea Ionia</span></small><b>Ανδρέα Δημητρίου 87</b><span><span class="el">από 205.000 €</span><span class="en">from 205.000 €</span> · 42–106 <span class="el">τ.μ.</span><span class="en">m²</span></span></div></a></div>
+</div></section>
+
+<section id="services" class="sec" style="padding-top:0"><div class="wrap">
+  <div class="panel"><div class="two" style="align-items:start">
+    <div style="display:flex;flex-direction:column;gap:16px"><span class="kicker"><span class="el">Υπηρεσίες</span><span class="en">Services</span></span>
+    <h2><span class="el">Από το οικόπεδο μέχρι τους εσωτερικούς χώρους</span><span class="en">From the plot to the interior</span></h2></div>
+    <ul class="checks"><li><svg class="ico " width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E4A16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><span><span class="el">Κατασκευές νέων έργων</span><span class="en">Construction of new buildings</span></span></li><li><svg class="ico " width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E4A16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><span><span class="el">Λύσεις για ενεργειακή αναβάθμιση</span><span class="en">Solutions for energy upgrade</span></span></li><li><svg class="ico " width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E4A16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><span><span class="el">Ανακαινίσεις</span><span class="en">Renovations</span></span></li><li><svg class="ico " width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3E4A16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><span><span class="el">Επισκευές</span><span class="en">Repairs</span></span></li></ul>
+  </div>
+  <div class="grid grid-4" style="margin-top:40px"><a class="svc" href="olokliromena-erga.html"><img src="https://static.wixstatic.com/media/3c238e_f0b299d4ffcd4a7190ca0c3b09ab1e01~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><b><span class="el">Μελέτη &amp; κατασκευή κτηρίων</span><span class="en">Analysis, design &amp; construction</span></b></a><a class="svc" href="projects.html"><img src="https://static.wixstatic.com/media/3c238e_2904ae49426d4356b3e4021ed4d17aae~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><b><span class="el">Διαμόρφωση εσωτερικών χώρων</span><span class="en">Interior design</span></b></a><a class="svc" href="contact.html"><img src="https://static.wixstatic.com/media/3c238e_b9bf9a774f0a4bc3871f7e3af02dee1e~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><b><span class="el">Ανακαινίσεις</span><span class="en">Renovations</span></b></a><a class="svc" href="kouzines.html"><img src="https://static.wixstatic.com/media/3c238e_d6984b209df94ad68e192c144bb5b339~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><b><span class="el">Ξυλουργικές κατασκευές</span><span class="en">Wooden constructions</span></b></a></div></div>
+</div></section>
+
+<section class="sec" style="padding-top:0"><div class="wrap"><div class="panel-navy"><div class="two">
+  <div style="display:flex;flex-direction:column;gap:14px"><span class="kicker"><span class="el">Για ιδιοκτήτες</span><span class="en">For owners</span></span>
+    <h2 style="font-size:clamp(28px,3.4vw,40px)"><span class="el">Είστε ιδιοκτήτης ακινήτου ή οικοπέδου;</span><span class="en">Are you a land owner?</span></h2>
+    <p style="font-size:20px;color:#D5DEE5"><span class="el">Μπορούμε να συνεργαστούμε.</span><span class="en">We can cooperate.</span></p></div>
+  <div class="ctas"><a class="btn btn-white" href="contact.html"><span class="el">Επικοινωνήστε μαζί μας</span><span class="en">Get in touch</span></a>
+    <a class="btn btn-ghost-w" href="tel:+306945135770"><svg class="ico " width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>694 513 5770</a></div>
+</div></div></div></section>
+
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="sec-head"><div><span class="kicker"><span class="el">Ολοκληρωμένα έργα</span><span class="en">Completed projects</span></span><h2><span class="el">Έργα που έχουμε παραδώσει</span><span class="en">Projects we have delivered</span></h2></div>
+  <a class="more" href="olokliromena-erga.html"><span class="el">Όλα τα έργα →</span><span class="en">All projects →</span></a></div>
+  <div class="grid grid-4"><a class="tile" href="xolargos.html"><img src="https://static.wixstatic.com/media/3c238e_035de84e240e4798bbf304f0c8ea16ec~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Χολαργός</span><span class="en">Cholargos</span></span></a><a class="tile" href="papagou.html"><img src="https://static.wixstatic.com/media/3c238e_b82cff7520054f2b9f38b078fe271ceb~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Παπάγου</span><span class="en">Papagou</span></span></a><a class="tile" href="zografou.html"><img src="https://static.wixstatic.com/media/3c238e_a5ee8f31a281419e98a7bfd69b0cb2ec~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Ζωγράφου</span><span class="en">Zografou</span></span></a><a class="tile" href="nikea.html"><img src="https://static.wixstatic.com/media/3c238e_e39ca45a60a2451998473b025033b3f5~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Νίκαια</span><span class="en">Nikaia</span></span></a><a class="tile" href="keratsini.html"><img src="https://static.wixstatic.com/media/3c238e_9f81f7baf775462ea631f18f92b14139~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Κερατσίνι</span><span class="en">Keratsini</span></span></a><a class="tile" href="agia-paraskevi.html"><img src="https://static.wixstatic.com/media/3c238e_5e31b801fe76429e970d346cb8993653~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Αγία Παρασκευή</span><span class="en">Agia Paraskevi</span></span></a><a class="tile" href="peukh.html"><img src="https://static.wixstatic.com/media/3c238e_d253909c0a56475995b7adfea9f8a6ae~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Πεύκη</span><span class="en">Pefki</span></span></a><a class="tile" href="palaio-faliro.html"><img src="https://static.wixstatic.com/media/3c238e_b936ad323e5f49c39ff05e517c19b0fa~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Παλαιό Φάληρο</span><span class="en">Palaio Faliro</span></span></a></div>
+</div></section>
+
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="sec-head"><div><span class="kicker"><span class="el">Εσωτερικοί χώροι</span><span class="en">Interior design</span></span><h2><span class="el">Διαμόρφωση εσωτερικών χώρων</span><span class="en">Interior design</span></h2>
+  <p style="margin-top:12px;font-size:17px;color:#3B4A54;max-width:640px"><span class="el">Η εταιρεία «Εύγειος» είναι σε θέση να προτείνει λύσεις εσωτερικών διαρρυθμίσεων, σύμφωνα με τις δικές σας ανάγκες.</span><span class="en">We are able to propose and design the appropriate configuration of interior spaces, always according to the needs of our client.</span></p></div>
+  <a class="more" href="projects.html"><span class="el">Δείτε περισσότερα →</span><span class="en">See more →</span></a></div>
+  <div class="grid grid-4"><a class="tile" href="kouzines.html"><img src="https://static.wixstatic.com/media/3c238e_d6984b209df94ad68e192c144bb5b339~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Κουζίνες</span><span class="en">Kitchens</span></span></a><a class="tile" href="saloni.html"><img src="https://static.wixstatic.com/media/3c238e_f708d80f8a4c404f86c4866306288453~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Σαλόνια</span><span class="en">Living rooms</span></span></a><a class="tile" href="upnodomatia.html"><img src="https://static.wixstatic.com/media/3c238e_9a587a2611294659b3d7980ad2fa1cb9~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Υπνοδωμάτια</span><span class="en">Bedrooms</span></span></a><a class="tile" href="wc.html"><img src="https://static.wixstatic.com/media/3c238e_ba83666ecf0d409aadeb6b1076cabde9~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,enc_auto/img.jpg" alt="" loading="lazy"><span><span class="el">Μπάνια</span><span class="en">Bathrooms</span></span></a></div>
+</div></section>
+
+<section class="sec" style="padding-top:0"><div class="wrap two" style="align-items:stretch">
+  <div style="display:flex;flex-direction:column;gap:24px;justify-content:center"><span class="kicker" style="margin:0"><span class="el">Επικοινωνία</span><span class="en">Contact</span></span>
+    <h2><span class="el">Ελάτε στο γραφείο μας</span><span class="en">Visit our office</span></h2><div class="info">
+  <div class="info-row"><span class="ic"><svg class="ico " width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><div><small><span class="el">ΔΙΕΥΘΥΝΣΗ</span><span class="en">ADDRESS</span></small><span><span class="el">Ύδρας 14, Μοσχάτο</span><span class="en">Ydras 14, Moschato</span></span></div></div>
+  <div class="info-row"><span class="ic"><svg class="ico " width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span><div><small><span class="el">ΤΗΛΕΦΩΝΑ</span><span class="en">PHONE</span></small><span><a href="tel:+302130996050">213 099 6050</a> · <a href="tel:+302130354695">213 035 4695</a> · <a href="tel:+306945135770">694 513 5770</a></span></div></div>
+  <div class="info-row"><span class="ic"><svg class="ico " width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><div><small>EMAIL</small><a href="mailto:goodlandcon@gmail.com">goodlandcon@gmail.com</a></div></div>
+</div>
+    <div class="ctas"><a class="btn btn-olive" href="contact.html"><span class="el">Στείλτε μήνυμα</span><span class="en">Send a message</span></a></div></div>
+  <iframe class="map" title="Χάρτης γραφείου" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=%CE%8E%CE%B4%CF%81%CE%B1%CF%82%2014%2C%20%CE%9C%CE%BF%CF%83%CF%87%CE%AC%CF%84%CE%BF%20183%2045&amp;z=15&amp;output=embed"></iframe>
+</div></section>
+
 </main>
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-grid">
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <a class="ftr-brand" href="index.html"><img src="https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png/v1/fit/w_160,h_160,al_c,q_80,enc_auto/img.png" alt="" width="56" height="56"><span style="display:flex;flex-direction:column;line-height:1.15"><b style="font-size:18px;letter-spacing:.14em">ΕΥΓΕΙΟΣ GOODLAND</b><small style="color:#9FB0BC;letter-spacing:.12em">Μ. ΕΠΕ</small></span></a>
+        <p style="font-size:15px;line-height:1.6"><span class="el">Κατασκευές κατοικιών, πωλήσεις κατοικιών, ανακαινίσεις κατοικιών.</span><span class="en">Residential construction, home sales and renovations.</span></p>
+      </div>
+      <div><h3><span class="el">Σελίδες</span><span class="en">Pages</span></h3><ul><li><a href="pros-polisi.html"><span class="el">Ακίνητα προς πώληση</span><span class="en">Properties for sale</span></a></li><li><a href="olokliromena-erga.html"><span class="el">Ολοκληρωμένα έργα</span><span class="en">Completed projects</span></a></li><li><a href="projects.html"><span class="el">Εσωτερικοί χώροι</span><span class="en">Interior design</span></a></li><li><a href="contact.html"><span class="el">Επικοινωνία</span><span class="en">Contact</span></a></li></ul></div>
+      <div><h3><span class="el">Επικοινωνία</span><span class="en">Contact</span></h3><ul><li><span class="el">Ύδρας 14, Μοσχάτο</span><span class="en">Ydras 14, Moschato</span></li><li><a href="tel:+302130996050">213 099 6050</a></li><li><a href="tel:+302130354695">213 035 4695</a></li><li><a href="tel:+306945135770">694 513 5770</a></li><li><a href="mailto:goodlandcon@gmail.com">goodlandcon@gmail.com</a></li></ul></div>
+      <div><h3>Social</h3><ul><li><a href="https://www.facebook.com/evgeios/" rel="noopener" target="_blank">Facebook</a></li><li><a href="https://www.instagram.com/goodland_constructions/" rel="noopener" target="_blank">Instagram</a></li></ul></div>
+    </div>
+    <div class="ftr-bottom"><span>© 2026 ΕΥΓΕΙΟΣ GOODLAND Μ. ΕΠΕ</span><span><span class="el">Ύδρας 14, Μοσχάτο · Αθήνα</span><span class="en">Ydras 14, Moschato · Athens</span></span></div>
+  </div>
+</footer>
+<div class="mbar">
+  <a class="btn btn-navy" href="tel:+302130996050"><svg class="ico " width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span class="el">Κλήση</span><span class="en">Call</span></a>
+  <a class="btn btn-olive" href="contact.html"><svg class="ico " width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span class="el">Μήνυμα</span><span class="en">Message</span></a>
+</div>
+<script src="assets/site.js"></script>
 </body>
 </html>

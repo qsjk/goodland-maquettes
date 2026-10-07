@@ -1,0 +1,57 @@
+{
+  "slug": "xolargos",
+  "page_title": "Ολοκληρωμένα Έργα Χολαργός | Ευγειος Goodland ΕΠΕ",
+  "title_el": "ΠΥΘΑΓΟΡΑ 20, ΧΟΛΑΡΓΟΣ",
+  "title_en": null,
+  "area_el": "Χολαργός",
+  "area_en": "Cholargos",
+  "text_el": [
+    "ΠΛΗΡΟΦΟΡΙΕΣ ΕΡΓΟΥ",
+    "ΤΕΤΡΑΩΡΟΦΗ ΠΟΛΥΚΑΤΟΙΚΙΑ ΕΠΙ PILOTIS",
+    "ΜΕ ΥΠΟΓΕΙΟ & ΔΩΜΑ",
+    "Πρόκειται για ένα κτήριο κατοικιών τοποθετημένο στην περιοχή του Χολαργού.",
+    "Με σύμμαχο τον άριστο προσανατολισμό, δημιουργήθηκε ένα κτήριο με λευκά γραμμικά οριζόντια στοιχεία και ξύλινα περσιδωτά χωρίσματα.",
+    "Η μέγιστη ενεργειακή κατάταξη του κτηρίου επιτυγχάνεται με την χρήση ενεργειακών κουφωμάτων, ηλιακών συλλεκτών, θερμοπρόσοψης 10εκ., καθώς και αντλιών θερμότητας ψύξης θέρμανσης.",
+    "ΑΝΑΣΤΑΣΕΩΣ 55, ΧΟΛΑΡΓΟΣ",
+    "ΠΛΗΡΟΦΟΡΙΕΣ ΕΡΓΟΥ",
+    "ΤΕΤΡΑΩΡΟΦΗ ΠΟΛΥΚΑΤΟΙΚΙΑ ΕΠΙ PILOTIS",
+    "ΜΕ ΥΠΟΓΕΙΟ & ΔΩΜΑ"
+  ],
+  "text_en": [],
+  "images": [
+    {
+      "id": "3c238e_035de84e240e4798bbf304f0c8ea16ec~mv2.jpg",
+      "alt": "1.jpg"
+    },
+    {
+      "id": "3c238e_6c0fdf43745742ce91b86719e43ff394~mv2.jpg",
+      "alt": "5.jpg"
+    },
+    {
+      "id": "3c238e_8ece56a16b73450e809bc9f9cf24817b~mv2.jpg",
+      "alt": "7.jpg"
+    },
+    {
+      "id": "3c238e_a7635a57677148f5afadf377d66541b7~mv2.jpg",
+      "alt": "8.jpg"
+    },
+    {
+      "id": "3c238e_dd78497328734d1eaac78de7d4e19ce7~mv2.jpg",
+      "alt": "3.jpg"
+    },
+    {
+      "id": "3c238e_21a51c6c829d4098a8dbaad6e689fbda~mv2.jpg",
+      "alt": "2.jpg"
+    },
+    {
+      "id": "3c238e_5aa4c5ceb5614b5d8a4aef7e5a144d05~mv2.jpg",
+      "alt": "4.jpg"
+    },
+    {
+      "id": "3c238e_56c493d0f6464ae493d5800efb3c3bcd~mv2.jpg",
+      "alt": "AZSAS-2.jpg"
+    }
+  ],
+  "stock_images": [],
+  "notes": "Two projects on one page: ΠΥΘΑΓΟΡΑ 20 (title_el) then ΑΝΑΣΤΑΣΕΩΣ 55, ΧΟΛΑΡΓΟΣ (second heading, included in text_el followed by its own ΠΛΗΡΟΦΟΡΙΕΣ ΕΡΓΟΥ block). The 3 descriptive paragraphs appear between the project-info lines of Pythagora 20 in the text extraction; exact relative placement vs info lines not certain. All 8 images were reported before the ΑΝΑΣΤΑΣΕΩΣ 55 heading; AZSAS-2.jpg (cropped, last) may in fact illustrate Anastaseos 55, which otherwise has no photo. A lone '.' text block after the second project omitted. Image list consistent across 2 fetches. Footer text (not in text_el): '2130996050 / 2130354695' and '©2022 by ΕΥΓΕΙΟΣ GOODLAND Μ. ΕΠΕ.'. Logo and og:image excluded. No English text on page."
+}

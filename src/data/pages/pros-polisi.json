@@ -1,0 +1,60 @@
+{
+  "slug": "pros-polisi",
+  "url": "https://www.goodland.gr/pros-polisi",
+  "page_title": "Προς Πώληση | Ευγειος Goodland ΕΠΕ",
+  "meta_description": null,
+  "texts": [
+    "MENU",
+    "ΠΕΡΙΟΧΕΣ",
+    "(Areas)",
+    "ΠΕΡΙΣΤΕΡΙ, ΑΛΚΑΜΕΝΟΥΣ 4",
+    "Ν. ΙΩΝΙΑ,   ΑΝΔΡΕΑ ΔΗΜΗΤΡΙΟΥ 87",
+    "ΜΑΡΟΥΣΙ,   ΟΛΥΜΠΟΥ 21",
+    "ΠΑΠΑΓΟΥ,   ΒΥΖΑΝΤΙΟΥ 56",
+    "ΜΟΣΧΑΤΟ, ΚΑΤΣΩΝΗ 5",
+    "ΠΑΓΚΡΑΤΙ,   ΔΙΚΑΙΑΡΧΟΥ 79",
+    "ΒΡΙΛΗΣΣΙΑ,   ΟΛΥΜΠΟΥ 23",
+    "ΚΟΥΚΑΚΙ,   ΚΑΛΛΙΡΡΟΗΣ 80",
+    "ΑΓ. ΔΗΜΗΤΡΙΟΣ, ΒΕΡΓΙΝΑΣ 130",
+    "ΚΑΛΛΙΘΕΑ,",
+    "ΚΕΚΡΟΠΟΣ 4-6",
+    "ΚΟΥΚΑΚΙ,   ΚΑΛΛΙΡΡΟΗΣ 100",
+    "ΜΑΡΟΥΣΙ,   ΕΥΚΑΛΥΠΤΩΝ 7",
+    "2130996050 / 2130354695",
+    "©2022 by ΕΥΓΕΙΟΣ GOODLAND Μ. ΕΠΕ."
+  ],
+  "links": [
+    {"text": "(logo image)", "href": "https://www.goodland.gr"},
+    {"text": "", "href": "https://www.goodland.gr/alkamenous-4-peristeri"},
+    {"text": "", "href": "https://www.goodland.gr/andrea-dimitriou-87-nea-iwnia"},
+    {"text": "", "href": "https://www.goodland.gr/olimpoy-21-marousi"},
+    {"text": "", "href": "https://www.goodland.gr/bizantiou-56-papagou"},
+    {"text": "", "href": "https://www.goodland.gr/katswnh-5-mosxato"},
+    {"text": "", "href": "https://www.goodland.gr/dikaiarxou-79-pagrati"},
+    {"text": "", "href": "https://www.goodland.gr/olympou-23-vrilhssia"},
+    {"text": "", "href": "https://www.goodland.gr/kalirrois-80-koukaki"},
+    {"text": "", "href": "https://www.goodland.gr/verginas-130-agios-dimitrios"},
+    {"text": "", "href": "https://www.goodland.gr/kekropos-4-6-kallithea"},
+    {"text": "", "href": "https://www.goodland.gr/kallirrois-100-koykaki"},
+    {"text": "", "href": "https://www.goodland.gr/ευκαλυπτων-7-μαρουσι"}
+  ],
+  "images": [
+    {"id": "3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png", "alt": "2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png", "stock": false, "context": "header logo", "links_to": "/"},
+    {"id": "3c238e_7068736f11ad469c8b12f3fddb247985~mv2.png", "alt": "", "stock": false, "context": "og:image / twitter:image in <head> only", "links_to": null}
+  ],
+  "properties": [
+    {"label": "ΠΕΡΙΣΤΕΡΙ, ΑΛΚΑΜΕΝΟΥΣ 4", "href": "/alkamenous-4-peristeri", "thumbnail": null},
+    {"label": "Ν. ΙΩΝΙΑ,   ΑΝΔΡΕΑ ΔΗΜΗΤΡΙΟΥ 87", "href": "/andrea-dimitriou-87-nea-iwnia", "thumbnail": null},
+    {"label": "ΜΑΡΟΥΣΙ,   ΟΛΥΜΠΟΥ 21", "href": "/olimpoy-21-marousi", "thumbnail": null},
+    {"label": "ΠΑΠΑΓΟΥ,   ΒΥΖΑΝΤΙΟΥ 56", "href": "/bizantiou-56-papagou", "thumbnail": null},
+    {"label": "ΜΟΣΧΑΤΟ, ΚΑΤΣΩΝΗ 5", "href": "/katswnh-5-mosxato", "thumbnail": null},
+    {"label": "ΠΑΓΚΡΑΤΙ,   ΔΙΚΑΙΑΡΧΟΥ 79", "href": "/dikaiarxou-79-pagrati", "thumbnail": null},
+    {"label": "ΒΡΙΛΗΣΣΙΑ,   ΟΛΥΜΠΟΥ 23", "href": "/olympou-23-vrilhssia", "thumbnail": null},
+    {"label": "ΚΟΥΚΑΚΙ,   ΚΑΛΛΙΡΡΟΗΣ 80", "href": "/kalirrois-80-koukaki", "thumbnail": null},
+    {"label": "ΑΓ. ΔΗΜΗΤΡΙΟΣ, ΒΕΡΓΙΝΑΣ 130", "href": "/verginas-130-agios-dimitrios", "thumbnail": null},
+    {"label": "ΚΑΛΛΙΘΕΑ, ΚΕΚΡΟΠΟΣ 4-6", "href": "/kekropos-4-6-kallithea", "thumbnail": null},
+    {"label": "ΚΟΥΚΑΚΙ,   ΚΑΛΛΙΡΡΟΗΣ 100", "href": "/kallirrois-100-koykaki", "thumbnail": null},
+    {"label": "ΜΑΡΟΥΣΙ,   ΕΥΚΑΛΥΠΤΩΝ 7", "href": "/ευκαλυπτων-7-μαρουσι", "thumbnail": null}
+  ],
+  "notes": "12 property links, in the same order as the 12 area/address labels; the pairing label->href above is by order and by matching slug (all match). The address labels are NOT links; the 12 links have no text content and no <img> in the fetched HTML (the converter shows them as empty anchors). Asked specifically for <img>, wow-image and background-image (wix-bg-image / style / data-bg / fill-layer) inside these links: none found — only the header logo and the head og:image exist on the page. So: no thumbnail ids available; the boxes are probably Wix containers whose background images are rendered client-side and are not visible to the fetcher. 'ΚΑΛΛΙΘΕΑ,' and 'ΚΕΚΡΟΠΟΣ 4-6' are two separate lines in source (merged in properties[].label). Multiple spaces after commas are as reported. The site's pages-sitemap.xml also lists /markopoulioti-26-32-neos-kosmos, which is NOT linked from this page."
+}

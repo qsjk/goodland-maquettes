@@ -1,0 +1,91 @@
+{
+  "slug": "bizantiou-56-papagou",
+  "page_title": "Νεόδμητη Κατοικία στην Παπάγου | Ευγειος Goodland ΕΠΕ",
+  "heading": "BYZANTIOY 56, ΠΑΠΑΓΟΥ",
+  "street_el": "Βυζαντίου 56",
+  "area_el": "Παπάγου",
+  "area_en": "Papagou",
+  "description_el": [
+    "Τετραώροφη πολυκατοικία με σοφίτα & υπόγειο.",
+    "Ενεργειακή κλάση Α.",
+    "Κατασκευή υψηλών προδιαγραφών.",
+    "Παράδοση υπό κατασκευή."
+  ],
+  "description_en": [
+    "Four-storey apartment building with loft & basement.",
+    "Energy class A.",
+    "High standard construction.",
+    "Delivery under construction."
+  ],
+  "building_images": [
+    {"id": "3c238e_bb1bcc03fc1e438a87c210078a8cbff6~mv2.jpg", "alt": "1.jpg"}
+  ],
+  "lots_heading_el": "ΔΙΑΘΕΣΙΜΑ ΑΚΙΝΗΤΑ ΠΡΟΣ ΠΩΛΗΣΗ",
+  "lots_heading_en": "AVAILABLE APARTMENTS FOR SALE",
+  "lots": [
+    {
+      "floor_el": "1ος ΟΡΟΦΟΣ", "floor_en": "1st FLOOR", "type_el": "ΔΙΑΜΕΡΙΣΜΑ", "type_en": "APARTMENT", "m2": 47,
+      "bedrooms": 1, "bathrooms": "1",
+      "text_el": null, "text_en": null,
+      "price": null, "status": "unavailable",
+      "images": [{"id": "3c238e_47cf31c770534ebca4dc37d896e86e6d~mv2.jpg", "alt": "Α2.jpg"}]
+    },
+    {
+      "floor_el": "2ος ΟΡΟΦΟΣ", "floor_en": "2nd FLOOR", "type_el": "ΔΙΑΜΕΡΙΣΜΑ", "type_en": "APARTMENT", "m2": 47,
+      "bedrooms": 1, "bathrooms": "1",
+      "text_el": null, "text_en": null,
+      "price": null, "status": "unavailable",
+      "images": [{"id": "3c238e_aa33d401f0d74fd1a58b0156535ede5d~mv2.jpg", "alt": "Β2.jpg"}]
+    },
+    {
+      "floor_el": "3ος-4ος ΟΡΟΦΟΣ", "floor_en": "3rd-4th FLOOR", "type_el": "ΜΕΖΟΝΕΤΑ", "type_en": "MAISONETTE", "m2": 110,
+      "bedrooms": 3, "bathrooms": "2",
+      "text_el": null, "text_en": null,
+      "price": null, "status": "unavailable",
+      "images": [
+        {"id": "3c238e_d780d18b3c694a6281a6f42f8819cd6d~mv2.jpg", "alt": "Γ2.jpg"},
+        {"id": "3c238e_65c0e2ac561f4c8fb42b5f40f4d31978~mv2.jpg", "alt": "Δ2.jpg"}
+      ]
+    }
+  ],
+  "galleries": [
+    {
+      "title_el": "ΤΡΙΣΔΙΑΣΤΑΤΕΣ ΑΠΕΙΚΟΝΙΣΕΙΣ", "title_en": "3D RENDERS",
+      "images": [
+        {"id": "3c238e_bb1bcc03fc1e438a87c210078a8cbff6~mv2.jpg", "alt": "1.jpg"},
+        {"id": "3c238e_65b361ee142e49ee8f60ffb09e5c9c14~mv2.jpg", "alt": "2.jpg"},
+        {"id": "3c238e_e9e22346ad2646ec9ec02446c6b54eb6~mv2.jpg", "alt": "3.jpg"},
+        {"id": "3c238e_47dadf00bdd84e08a502b04b740d4a3f~mv2.jpg", "alt": "4.jpg"},
+        {"id": "3c238e_b28f6f308440439193a6bff04f35aa38~mv2.jpg", "alt": "5.jpg"},
+        {"id": "3c238e_2cf817b8e5504e95ab08ff7b81e2e427~mv2.jpg", "alt": "6.jpg"},
+        {"id": "3c238e_4e10120563ec4f1ca6ee9425bd799a13~mv2.jpg", "alt": "7.jpg"},
+        {"id": "3c238e_1bd1dee2d10847cb98d964569f3a4041~mv2.jpg", "alt": "08.jpg"},
+        {"id": "3c238e_883b232cb37241dca361813d4efc517a~mv2.jpg", "alt": "09.jpg"},
+        {"id": "3c238e_4fccf43d9f0d4e14abf98a63a08700ba~mv2.jpg", "alt": "10.jpg"}
+      ]
+    },
+    {
+      "title_el": "Εσωτερικά 2ου ορόφου:", "title_en": null,
+      "images": [
+        {"id": "3c238e_c9c829108779482d891c83e0dc7ef406~mv2.jpg", "alt": "Β#2.jpg"},
+        {"id": "3c238e_e901ed8845774db0855b2d4c77162e89~mv2.jpg", "alt": "Β#1.jpg"}
+      ]
+    },
+    {
+      "title_el": "Εσωτερικά 3ου ορόφου:", "title_en": null,
+      "images": [
+        {"id": "3c238e_865551e70a274797a357b544f53389d5~mv2.jpg", "alt": "1C2B.jpg"},
+        {"id": "3c238e_c70bf864536e46fd932cdea26d844fa5~mv2.jpg", "alt": "5C2B.jpg"},
+        {"id": "3c238e_f0acc2631ecd46878eb8c5d66c422cfa~mv2.jpg", "alt": "2C2B.jpg"},
+        {"id": "3c238e_18bb5cee1c3a4ad3841f8fd09fe3c74d~mv2.jpg", "alt": "4C2B.jpg"},
+        {"id": "3c238e_4eecd5def6bf4ea5939ec40723b235af~mv2.jpg", "alt": "3C2B.jpg"}
+      ]
+    }
+  ],
+  "stock_images": ["11062b_1d0bcc469def47d2aa6a11ac417208db~mv2_d_2256_1269_s_2.jpg"],
+  "other_text": [
+    "2130996050 / 2130354695",
+    "©2022 by ΕΥΓΕΙΟΣ GOODLAND Μ. ΕΠΕ."
+  ],
+  "notes": "This program is SOLD OUT: all 3 lots are marked unavailable and no price appears on the page. The status markers differ per lot: lot 1 has '## Μη διαθέσιμο   (not available)'; lot 2 has two separate headings, '## Μη διαθέσιμο' and '## (Νot available)', where the N is reportedly Greek capital Nu; lot 3 has the lowercase '## μη διαθέσιμο   (not available)'. The H1 street name 'BYZANTIOY' is written in LATIN letters on the page (confirmed character by character), while 'ΠΑΠΑΓΟΥ' is in Greek. street_el is my Greek-script derivation. The page title says 'στην Παπάγου'. WebFetch refused verbatim paragraphs (125-character quote limit), so text_el/text_en are null and must be copied from the Wix editor or page source. All lots have ground-floor parking and a basement storage room. Discrepancy in lot 3 (maisonette): the Greek text says '3 υπνοδωμάτια', but the English says '2 bedrooms'. I used 3. Lot 3 has 'δύο μπάνια' / 'two bathrooms'. Lot 2 English reads '1 bedrooms'. Lots 1 and 2 put the English heading and text before the Greek. In lot 3 the English heading and text come first, then '## 3ος-4ος ΟΡΟΦΟΣ' and 'ΜΕΖΟΝΕΤΑ 110 Τ.Μ.'. The floor headings contain multiple spaces on the page ('1ος   ΟΡΟΦΟΣ'), which I collapsed. There are two extra Greek-only galleries titled 'Εσωτερικά 2ου ορόφου:' and 'Εσωτερικά 3ου ορόφου:', kept with their trailing colon. The building image 1.jpg is reused as the first 3D-render image."
+}

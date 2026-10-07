@@ -1,0 +1,96 @@
+{
+  "slug": "katswnh-5-mosxato",
+  "page_title": "Νεόδμητη Κατοικία στο Μοσχάτο | Ευγειος Goodland ΕΠΕ",
+  "heading": "ΚΑΤΣΩΝΗ 5 & ΑΧΙΛΛΕΩΣ 19, ΜΟΣΧΑΤΟ",
+  "street_el": "Κατσώνη 5 & Αχιλλέως 19",
+  "area_el": "Μοσχάτο",
+  "area_en": "Moschato",
+  "description_el": [
+    "Τετραώροφη πολυκατοικία επί pilotis με υπόγειο & δώμα.",
+    "Ενεργειακή κλάση Α.",
+    "Κατασκευή υψηλών προδιαγραφών.",
+    "Παράδοση υπό κατασκευή."
+  ],
+  "description_en": [
+    "Four-story apartment building on pilotis with basement and roof.",
+    "Energy class A.",
+    "High standard construction.",
+    "Delivery under construction."
+  ],
+  "building_images": [
+    {"id": "3c238e_ec805c4be0f74bfa8ed2a8150a4b5989~mv2.png", "alt": "2.png"},
+    {"id": "3c238e_6094e04861744401af8c65906a7da830~mv2.jpg", "alt": "ΙΣΟΓΕΙΟ.jpg"},
+    {"id": "3c238e_b5354d6723534ffc99df9cb74600f315~mv2.jpg", "alt": "ΥΠΟΓΕΙΟ.jpg"}
+  ],
+  "lots_heading_el": "ΔΙΑΘΕΣΙΜΑ ΑΚΙΝΗΤΑ ΠΡΟΣ ΠΩΛΗΣΗ",
+  "lots_heading_en": "AVAILABLE APARTMENTS FOR SALE",
+  "lots": [
+    {
+      "floor_el": "1ος ΟΡΟΦΟΣ", "floor_en": "1st FLOOR", "type_el": "ΔΙΑΜΕΡΙΣΜΑ", "type_en": "APARTMENT", "m2": 47,
+      "bedrooms": 1, "bathrooms": "1",
+      "text_el": null, "text_en": null,
+      "price": null, "status": "unavailable",
+      "images": [{"id": "3c238e_f53c75a3588c4369928d5eb6bd8b5f06~mv2.jpg", "alt": "Α1.jpg"}]
+    },
+    {
+      "floor_el": "1ος ΟΡΟΦΟΣ", "floor_en": "1st FLOOR", "type_el": "ΔΙΑΜΕΡΙΣΜΑ", "type_en": "APARTMENT", "m2": 69,
+      "bedrooms": 2, "bathrooms": "1",
+      "text_el": null, "text_en": null,
+      "price": null, "status": "unavailable",
+      "images": [{"id": "3c238e_f4835b4436504cdc8d4031a14e0ce74f~mv2.jpg", "alt": "Α2.jpg"}]
+    },
+    {
+      "floor_el": "2ος ΟΡΟΦΟΣ", "floor_en": "2nd FLOOR", "type_el": "ΔΙΑΜΕΡΙΣΜΑ", "type_en": "APARTMENT", "m2": 47,
+      "bedrooms": 1, "bathrooms": "1",
+      "text_el": null, "text_en": null,
+      "price": null, "status": "unavailable",
+      "images": [{"id": "3c238e_8cee1ea7c2ae4a29b1bc6b0127e7ee08~mv2.jpg", "alt": "Β1.jpg"}]
+    },
+    {
+      "floor_el": "2ος ΟΡΟΦΟΣ", "floor_en": "2nd FLOOR", "type_el": "ΔΙΑΜΕΡΙΣΜΑ", "type_en": "APARTMENT", "m2": 69,
+      "bedrooms": 2, "bathrooms": "1",
+      "text_el": null, "text_en": null,
+      "price": null, "status": "unavailable",
+      "images": [{"id": "3c238e_585ab8131f2a498a8f69c5727b741f47~mv2.jpg", "alt": "Β2.jpg"}]
+    },
+    {
+      "floor_el": "2ος ΟΡΟΦΟΣ", "floor_en": "2nd FLOOR", "type_el": "ΔΙΑΜΕΡΙΣΜΑ", "type_en": "APARTMENT", "m2": 51,
+      "bedrooms": 1, "bathrooms": "1",
+      "text_el": null, "text_en": null,
+      "price": null, "status": "unavailable",
+      "images": [{"id": "3c238e_958d7513cbe74d62a01f75683da1b94d~mv2.jpg", "alt": "Β3.jpg"}]
+    },
+    {
+      "floor_el": "3ος ΟΡΟΦΟΣ", "floor_en": "3rd FLOOR", "type_el": "ΔΙΑΜΕΡΙΣΜΑ", "type_en": "APARTMENT", "m2": 70,
+      "bedrooms": 2, "bathrooms": "1",
+      "text_el": null, "text_en": null,
+      "price": null, "status": "unavailable",
+      "images": [{"id": "3c238e_d2258666630e4e359c326b1b2a59d2b7~mv2.jpg", "alt": "Γ1.jpg"}]
+    },
+    {
+      "floor_el": "4ος ΟΡΟΦΟΣ", "floor_en": "4th FLOOR", "type_el": "ΔΙΑΜΕΡΙΣΜΑ", "type_en": "APARTMENT", "m2": 70,
+      "bedrooms": 2, "bathrooms": "1",
+      "text_el": null, "text_en": null,
+      "price": "275.000€", "status": "available",
+      "images": [{"id": "3c238e_dc5cac700bfa4f3799f34f76a4632d4b~mv2.jpg", "alt": "Δ2.jpg"}]
+    }
+  ],
+  "galleries": [
+    {
+      "title_el": "ΤΡΙΣΔΙΑΣΤΑΤΕΣ ΑΠΕΙΚΟΝΙΣΕΙΣ", "title_en": "3D RENDERS",
+      "images": [
+        {"id": "3c238e_760e1e54e276422e985f0ebbb2b141bf~mv2.png", "alt": "1.png"},
+        {"id": "3c238e_ec805c4be0f74bfa8ed2a8150a4b5989~mv2.png", "alt": "2.png"},
+        {"id": "3c238e_be7e0dd541d948a3b6bfbdfb96d990ae~mv2.png", "alt": "3.png"},
+        {"id": "3c238e_0f5963fb6c2a4e01941f86a6a0a9b305~mv2.png", "alt": "4.png"},
+        {"id": "3c238e_1a4349e96bdf4d938b327508662d7258~mv2.png", "alt": "5.png"}
+      ]
+    }
+  ],
+  "stock_images": ["11062b_1d0bcc469def47d2aa6a11ac417208db~mv2_d_2256_1269_s_2.jpg"],
+  "other_text": [
+    "2130996050 / 2130354695",
+    "©2022 by ΕΥΓΕΙΟΣ GOODLAND Μ. ΕΠΕ."
+  ],
+  "notes": "Only 1 of 7 lots is available: the 4th-floor 70 m2 at 275.000€. Lots 1 to 6 are each followed by '## Μη διαθέσιμο' and '## (Νot available)' (two separate headings, N reportedly Greek capital Nu). The H1 names two streets ('ΚΑΤΣΩΝΗ 5 & ΑΧΙΛΛΕΩΣ 19'), which is a corner building. This page is GREEK-FIRST: each block has the Greek floor heading, size line and text before the English. The floor headings contain multiple spaces ('1ος   ΟΡΟΦΟΣ'), which I collapsed. There are 3 building images: a render (2.png, reused in the gallery), plus ground-floor (ΙΣΟΓΕΙΟ) and basement (ΥΠΟΓΕΙΟ) plans. WebFetch refused verbatim paragraphs (125-character quote limit), so text_el/text_en are null and must be copied from the Wix editor or page source. Parking per lot: ground floor for lots 1, 3, 5 and 6; underground for lots 2 and 7. Lot 4 has a mismatch: the Greek says 'θέση πάρκινγκ στο ισόγειο', but the English says 'a parking space and storage room in the basement'. Lot 2 reportedly mentions no storage room. Heating mismatch: lots 3 and 4 describe a heat-pump fan-coil system in English but boiler and radiators in Greek (per summary); the other lots have boiler and radiators. Lot 3's English text reads '1 bedrooms' and 'on the groundfloor'. The Greek 'μπάνιo' reportedly ends with a Latin 'o' in several lots. The English description uses US spelling 'Four-story' (other pages use 'storey')."
+}

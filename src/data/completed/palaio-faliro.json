@@ -1,0 +1,107 @@
+{
+  "slug": "palaio-faliro",
+  "page_title": "Ολοκληρωμένα Έργα Παλαιό Φάληρο | Ευγειος Goodland ΕΠΕ",
+  "title_el": "ΑΙΑΝΤΟΣ 81, ΠΑΛΑΙΟ ΦΑΛΗΡΟ",
+  "title_en": null,
+  "area_el": "Παλαιό Φάληρο",
+  "area_en": "Palaio Faliro",
+  "text_el": [
+    "Σύγχρονο κτήριο σε εύκολα προσβάσιμο σημείο στην περιοχή του Παλαιού φαλήρου. Διαθέτει επτά ορόφους και έξι διαμερίσματα, υπόγειες αποθήκες και ισόγειες και υπόγειες θέσεις στάθμευσης.",
+    "ΠΛΗΡΟΦΟΡΙΕΣ ΕΡΓΟΥ",
+    "ΝΕΑ ΕΠΤΑΩΡΟΦΗ ΠΟΛΥΚΑΤΟΙΚΙΑ ME PILOTIS, ΥΠΟΓΕΙΟ ΚΑΙ ΔΩΜΑ",
+    "ΕΣΩΤΕΡΙΚΕΣ ΛΗΨΕΙΣ  ~ INTERIOR VIEWS ~"
+  ],
+  "text_en": [],
+  "images": [
+    {
+      "id": "3c238e_b936ad323e5f49c39ff05e517c19b0fa~mv2.jpg",
+      "alt": "Ekswteriko#1.jpg"
+    },
+    {
+      "id": "3c238e_47f35b0e2e26479c84ee315b9cb3030a~mv2.jpg",
+      "alt": "Ekswteriko#3.jpg"
+    },
+    {
+      "id": "3c238e_c33446357a2b437fad89a963cbef6e59~mv2.jpg",
+      "alt": "Ekswteriko#2.jpg"
+    },
+    {
+      "id": "3c238e_6b0133a7a1f447adb972c696bfc07a2d~mv2.jpg",
+      "alt": "Saloni#2.jpg"
+    },
+    {
+      "id": "3c238e_7c9e51652eb94aa0b457e5d1cb8166de~mv2.jpg",
+      "alt": "Kouzina#1.jpg"
+    },
+    {
+      "id": "3c238e_37e8de526bb148c981c1585a53884093~mv2.jpg",
+      "alt": "Kouzina#2.jpg"
+    },
+    {
+      "id": "3c238e_60f994521711458884a4d8ca8d8a9e94~mv2.jpg",
+      "alt": "Kouzina#3.jpg"
+    },
+    {
+      "id": "3c238e_c1934b352b644b0ab150472b6b7d705c~mv2.jpg",
+      "alt": "Kouzina#6.jpg"
+    },
+    {
+      "id": "3c238e_5bd5f034f8964181ae21846cc08e264e~mv2.jpg",
+      "alt": "Koufwmata#1.jpg"
+    },
+    {
+      "id": "3c238e_1f03490cfa0e416c95ea0d205126aa1b~mv2.jpg",
+      "alt": "Koufwmata#2.jpg"
+    },
+    {
+      "id": "3c238e_f13648c2975140049424b4311d6952a7~mv2.jpg",
+      "alt": "Doulapes#1.jpg"
+    },
+    {
+      "id": "3c238e_241d411301ff4bc5a5f20698931c404f~mv2.jpg",
+      "alt": "Banio#1.jpg"
+    },
+    {
+      "id": "3c238e_a30cea0622a84cd8a494b1b4a39ded54~mv2.jpg",
+      "alt": "Banio#2.jpg"
+    },
+    {
+      "id": "3c238e_06e83a218b8f4242a0b2a523219dffa3~mv2.jpg",
+      "alt": "Banio#5.jpg"
+    },
+    {
+      "id": "3c238e_93056a78814340f185a7929fb57de031~mv2.jpg",
+      "alt": "Banio#3.jpg"
+    },
+    {
+      "id": "3c238e_dcbf79433d854e9bb93575eb4640b988~mv2.jpg",
+      "alt": "Banio#4.jpg"
+    },
+    {
+      "id": "3c238e_5ae7a762f4024f6d877416d1fe03cb5b~mv2.jpg",
+      "alt": "Banio#6.jpg"
+    },
+    {
+      "id": "3c238e_5fb9b6ff2fce44abbd11051b9d323318~mv2.jpg",
+      "alt": "Banio#7.jpg"
+    },
+    {
+      "id": "3c238e_dda7235a709d416eb420e6d22db4e9c6~mv2.jpg",
+      "alt": "Banio#8.jpg"
+    },
+    {
+      "id": "3c238e_0f54fa64f4a74436980ef7322cc5cf62~mv2.jpg",
+      "alt": "Banio#9.jpg"
+    },
+    {
+      "id": "3c238e_09129ef748fd498e9f96df4fa9d114f6~mv2.jpg",
+      "alt": "Klimakostasio#1.jpg"
+    },
+    {
+      "id": "3c238e_4e123d9bd56241dfbbd7ddf71e67d6cc~mv2.jpg",
+      "alt": "Klimakostasio#2.jpg"
+    }
+  ],
+  "stock_images": [],
+  "notes": "Single project. Structure: description + 2 exterior images, project info + 1 exterior image (Ekswteriko#2), heading 'ΕΣΩΤΕΡΙΚΕΣ ΛΗΨΕΙΣ  ~ INTERIOR VIEWS ~' (kept whole in text_el; space count uncertain) then 19 interior images (living room, kitchen, frames, wardrobes, bathrooms, staircase). 'ME PILOTIS' copied as returned (ME may be Latin letters). Lowercase 'φαλήρου' is as on page. Image list identical across 2 fetches. Footer text (not in text_el): '2130996050 / 2130354695' and '©2022 by ΕΥΓΕΙΟΣ GOODLAND Μ. ΕΠΕ.'. Logo and og:image excluded. Only English text: '~ INTERIOR VIEWS ~' inside the heading."
+}
