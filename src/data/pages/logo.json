@@ -1,6 +1,0 @@
-{
-  "id": "3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png",
-  "description": "FAILED: WebFetch cannot read image content ('Image content is not supported'), so no visual description is available. See error and known_facts.",
-  "error": "WebFetch failed on https://static.wixstatic.com/media/3c238e_fe85326121a14193bf1f4de266797e7a~mv2.png: 'Image content is not supported'. Direct download (curl) is blocked by the sandbox proxy for static.wixstatic.com.",
-  "known_facts": "PNG with transparency likely (Wix ~mv2.png). Alt text on the site: '2ΕΥΓΕΙΟΣ_LOGO_CURRENT_edited.png' (menu instance: 'eygeios_logo'). Rendered in the header at w_200,h_210 (fill), i.e. roughly square, slightly taller than wide (about 0.95:1). Linked to the home page."
-}

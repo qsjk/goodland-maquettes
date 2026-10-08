@@ -1,9 +1,9 @@
-# Εύγειος Goodland — νέο site (μακέτα)
+# Zaid, guide des îles grecques
 
-Στατικό site, φιλοξενείται στο GitHub Pages.
+Site vitrine statique (une page, FR/EN), hébergé sur GitHub Pages.
 
-- Περιεχόμενο (κείμενα, τιμές, διαμερίσματα, φωτογραφίες): `src/data/*.json`
-- Δημιουργία σελίδων: `python3 src/build.py` (γράφει τα `.html` στη ρίζα)
-- Στυλ / λειτουργίες: `assets/style.css`, `assets/site.js`
+- Contenu : `index.html` (chaque texte existe en `<span class="fr">` et `<span class="en">`)
+- Style : `assets/style.css`
+- Langue, menu, galerie, bouton WhatsApp : `assets/site.js` (renseigner `WHATSAPP` pour afficher les boutons)
 
-Οι φωτογραφίες φορτώνονται προσωρινά από τον server του Wix (static.wixstatic.com).
+Les photos sont pour l'instant chargées depuis Airbnb (a0.muscache.com).
