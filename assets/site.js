@@ -4,18 +4,22 @@
 
   var html = document.documentElement;
 
-  // Language: saved choice, else the browser language (French or English)
+  // Language: English by default, French and Greek on request (choice remembered)
+  var LANGS = ['en', 'fr', 'el'];
+  var AIRBNB = { en: 'https://www.airbnb.com', fr: 'https://www.airbnb.fr', el: 'https://www.airbnb.gr' };
   function setLang(l) {
+    if (LANGS.indexOf(l) < 0) l = 'en';
     html.setAttribute('data-lang', l);
     html.setAttribute('lang', l);
+    document.querySelectorAll('[data-book]').forEach(function (a) { a.href = AIRBNB[l] + '/experiences/4854404'; });
     document.querySelectorAll('.lang button').forEach(function (b) {
       b.setAttribute('aria-pressed', b.getAttribute('data-lang') === l ? 'true' : 'false');
     });
-    try { localStorage.setItem('zaid-lang', l); } catch (e) {}
+    try { localStorage.setItem('zaid-lang-v2', l); } catch (e) {}
   }
   var saved = null;
-  try { saved = localStorage.getItem('zaid-lang'); } catch (e) {}
-  setLang(saved || ((navigator.language || 'fr').toLowerCase().indexOf('fr') === 0 ? 'fr' : 'en'));
+  try { saved = localStorage.getItem('zaid-lang-v2'); } catch (e) {}
+  setLang(saved || 'en');
   document.querySelectorAll('.lang button').forEach(function (b) {
     b.addEventListener('click', function () { setLang(b.getAttribute('data-lang')); });
   });

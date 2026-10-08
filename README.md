@@ -1,6 +1,6 @@
 # Zaid, guide des îles grecques
 
-Site vitrine statique (une page, FR/EN), hébergé sur GitHub Pages.
+Site vitrine statique (une page, EN par défaut, FR et ΕΛ), hébergé sur GitHub Pages.
 
 - Contenu : `index.html` (chaque texte existe en `<span class="fr">` et `<span class="en">`)
 - Style : `assets/style.css`

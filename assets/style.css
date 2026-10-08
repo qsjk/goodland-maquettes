@@ -8,8 +8,8 @@
   --line:#D6DFDC;
   --sun:#F4C542;       /* route markers, rating star */
   --white:#FFFFFF;
-  --display:'Bricolage Grotesque',system-ui,sans-serif;
-  --body:'Figtree',system-ui,sans-serif;
+  --display:'Bricolage Grotesque','Commissioner',system-ui,sans-serif;
+  --body:'Figtree','Commissioner',system-ui,sans-serif;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -24,8 +24,7 @@ p{margin:0}
 .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
 .narrow{max-width:68ch}
 
-html[data-lang="fr"] .en{display:none!important}
-html[data-lang="en"] .fr{display:none!important}
+html:not([data-lang="en"]) .en,html:not([data-lang="fr"]) .fr,html:not([data-lang="el"]) .el{display:none!important}
 
 /* buttons */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:999px;font:600 16px/1 var(--body);text-decoration:none;border:2px solid transparent;cursor:pointer;transition:background .15s,color .15s}
